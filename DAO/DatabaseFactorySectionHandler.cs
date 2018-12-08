@@ -29,7 +29,7 @@ namespace DAO
                 }
                 catch (Exception excep)
                 {
-                    throw new Exception("Connection string " + ConnectionStringName + " was not found in web.config. " + excep.Message);
+                    throw new Exception("Connection string " + ConnectionStringName + " was not found in App.config. " + excep.Message);
                 }
             }
         }
